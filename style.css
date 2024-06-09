@@ -1,0 +1,215 @@
+#page {
+    width: 1000px;
+    height: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(74, 42, 0);
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    width: 250px;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+
+header img {
+    width: 135px;
+    height: 135px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 0px;
+    line-height: 50px;
+}
+
+nav {
+    width: 750px;
+    height: 200px;
+    float: left;
+    padding-top: 150px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+nav li {
+    float: left;
+
+}
+
+
+nav a {
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    border-right: 2px solid burlywood;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: burlywood;
+    font-size: 17px;
+
+}
+
+nav a:hover {
+    background-color: burlywood;
+    color: rgb(63, 24, 0);
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    /* transition-property: background-color; */
+}
+
+main {
+    clear: both;
+}
+
+#bolum1 {
+    height: 460px;
+    border: 5px solid burlywood;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    background-image: url(images/banner.jpg);
+    background-size: 1000px 460px;
+    animation-name: degisenarkaplan;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes degisenarkaplan {
+    33% {
+        background-image: url(images/banner2.jpg);
+        border-color: saddlebrown;
+    }
+
+    66% {
+        background-image: url(images/banner3.jpg);
+        border-color: brown;
+    }
+}
+
+video {
+    width: 310px;
+    height: 190px;
+    border: 3px solid rgba(222, 184, 135, 0.5);
+    border-radius: 3px;
+    display: block;
+    background-color: rgb(63, 24, 0);
+    box-sizing: border-box;
+    float: left;
+
+
+}
+
+#bolum2 div,
+#bolum3 div {
+    float: left;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.yazi {
+    width: 640px;
+    height: 260px;
+    overflow: auto;
+    color: burlywood;
+    font-size: 18px;
+    font-family: courier;
+    font-weight: bolder;
+    text-indent: 50px;
+    margin-left: 25px;
+}
+
+.clear {
+    clear: both;
+}
+
+#bolum4 div {
+    width: 310px;
+    height: 270px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#bolum4 img {
+    width: 310px;
+    height: 210px;
+    border: 3px solid rgba(222, 184, 135, 0.5);
+    box-sizing: border-box;
+}
+
+#bolum4 a {
+    line-height: 60px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: burlywood;
+}
+
+footer {
+    height: 215px;
+    border: 3px solid burlywood;
+    box-sizing: border-box;
+    clear: both;
+}
+
+footer div {
+    width: 331px;
+    height: 210px;
+    float: left;
+    background-color: rgb(60, 34, 0);
+
+}
+
+footer div h3 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+footer div h3:hover {
+
+    color: rgb(63, 24, 0);
+    background-color: burlywood;
+
+}
+
+footer div ul li {
+    list-style-type: none;
+    color: burlywood;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+footer a {
+    font-size: 15px;
+    color: burlywood;
+    text-decoration: none;
+}
+
+footer a:hover {
+    border: 1px solid burlywood;
+    color: rgb(63, 24, 0);
+    background-color: rgba(222, 184, 135, 0.508);
+}
+
+footer li:hover {
+
+    border: 1px solid burlywood;
+    color: rgb(63, 24, 0);
+    background-color: rgba(222, 184, 135, 0.508);
+}
